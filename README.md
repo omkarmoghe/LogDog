@@ -6,6 +6,12 @@ Feel free to submit pull requests!
 # Usage
 To use this class in your project, simply download the `LogPlus.java` file and add it to your project.
 
+Make sure you add your package name at the top of the file:
+
+`com.yourname.projectname;`
+
+and `import` all necessary classes.
+
 Some example calls:
 
 ```java
