@@ -20,4 +20,5 @@ Would generate a LogCat output like this:
 
 # To do
 - Add support for ASSERT, ERROR, INFO, VERBOSE, and WARN
+- Add support for passing in a Throwable
 - Extensive testing lol
