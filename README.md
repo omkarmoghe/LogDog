@@ -16,6 +16,8 @@ Would generate a LogCat output like this:
 
 `DEBUG/MyApplication(2): [apple, banana, pineapple, watermelon]`
 
+*WARNING:* LogPlus does not check for any `null` parameters so make sure your shit isn't `null`.
+
 # To do
 - Add support for ASSERT, ERROR, INFO, VERBOSE, and WARN
 - Extensive testing lol
