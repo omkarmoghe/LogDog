@@ -169,7 +169,7 @@ public class LogPlus {
      * NOT ALWAYS GUARANTEED TO WORK
      * Relies on the toString() method of Object T.
      * @param tag
-     * @param array ArrayList of T ojects
+     * @param array ArrayList of T objects
      * @param <T> Object
      * @return
      */
