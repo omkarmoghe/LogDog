@@ -50,7 +50,7 @@ public class LogPlus {
      * @param o any type T
      * @return
      */
-    public static <T> int d (Staing tag, T t) {
+    public static <T> int d (String tag, T t) {
         return Log.d(tag, t.toString());
     }
         
