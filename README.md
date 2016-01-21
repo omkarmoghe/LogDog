@@ -53,7 +53,7 @@ LogPlus.d("MyApplication", obj);
 
 `DEBUG/MyApplication(2): Number: 42, Word: pineapple`
 
-*WARNING:* LogPlus does not check for any `null` parameters so make sure you check for that on your end.
+<b>*WARNING:* LogPlus does not check for any `null` parameters so make sure you check for that on your end.</b>
 
 # To do
 - Add support for ASSERT, ERROR, INFO, VERBOSE, and WARN
