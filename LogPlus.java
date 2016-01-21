@@ -43,63 +43,31 @@ public class LogPlus {
     }
         
     public static int d (String tag, int[] array) {
-        String msg = "[";
-        for (int i = 0; i < array.length; ++i) {
-            msg += array[i];
-            if (i == array.length - 1) msg += "]";
-            else msg += ", ";
-        }
-
-        return Log.d(tag, msg);
+        return Log.d(tag, Arrays.toString(array));
     }
 
     public static int d (String tag, double[] array) {
-        String msg = "[";
-        for (int i = 0; i < array.length; ++i) {
-            msg += array[i];
-            if (i == array.length - 1) msg += "]";
-            else msg += ", ";
-        }
-
-        return Log.d(tag, msg);
+        return Log.d(tag, Arrays.toString(array));
     }
 
     public static int d (String tag, float[] array) {
-        String msg = "[";
-        for (int i = 0; i < array.length; ++i) {
-            msg += array[i];
-            if (i == array.length - 1) msg += "]";
-            else msg += ", ";
-        }
-
-        return Log.d(tag, msg);
+        return Log.d(tag, Arrays.toString(array));
     }
 
     public static int d (String tag, long[] array) {
-        String msg = "[";
-        for (int i = 0; i < array.length; ++i) {
-            msg += array[i];
-            if (i == array.length - 1) msg += "]";
-            else msg += ", ";
-        }
-
-        return Log.d(tag, msg);
+        return Log.d(tag, Arrays.toString(array));
+    }
+    
+    public static int d (String tag, char[] array) {
+        return Log.d(tag, Arrays.toString(array));
     }
 
-    public static int d (String tag, String[] array) {
-        String msg = "[";
-        for (int i = 0; i < array.length; ++i) {
-            msg += array[i];
-            if (i == array.length - 1) msg += "]";
-            else msg += ", ";
-        }
-
-        return Log.d(tag, msg);
+    public static int d (String tag, Object[] array) {
+        return Log.d(tag, Arrays.toString(array));
     }
 
     /**
      * Prints the collection of T Objects using the object's toString() method.
-     * NOT ALWAYS GUARANTEED TO WORK
      * Relies on the toString() method of Object T.
      * @param tag
      * @param array ArrayList of T objects
