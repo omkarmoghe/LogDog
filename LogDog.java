@@ -13,7 +13,7 @@ import java.util.ArrayList;
  *
  * Created by Omkar Moghe on 8/18/15
  */
-public class LogPlus {
+public class LogDog {
 
     public static int d (String tag, int i) {
         return Log.d(tag, Integer.toString(i));
