@@ -3,7 +3,7 @@ Print collections, numbers, and other objects to Logcat!
 
 Feel free to submit pull requests!
 
-# Building
+## Building
 To use this class in your project, simply download the `LogDog.java` file and add it to your project.
 
 Make sure you add your package name at the top of the file:
@@ -12,7 +12,7 @@ Make sure you add your package name at the top of the file:
 
 and `import` all necessary classes.
 
-# Usage
+## Usage
 
 The following code:
 
@@ -55,7 +55,7 @@ LogDog.d("MyApplication", obj);
 
 <b>*WARNING:* LogDog does not check for any `null` parameters so make sure you check for that on your end.</b>
 
-# To do
+## To do
 - Add support for ASSERT, ERROR, INFO, VERBOSE, and WARN
 - Add support for Throwables
 - Extensive testing (lol)
